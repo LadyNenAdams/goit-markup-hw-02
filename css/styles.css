@@ -1,0 +1,13 @@
+body {
+    font-family: 'Roboto', 'Raleway', 'sans-serif';
+    background-color: var(--background-main-color);
+}
+
+:root {
+--background-main-color: #E5E5E5;
+--title-color: #212121;
+--main-text-color: #757575;
+--highlight-color: #2196F3;
+--footer-color: #2F303A;
+}
+
