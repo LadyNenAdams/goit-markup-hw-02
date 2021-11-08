@@ -18,6 +18,8 @@
 --web-color: #2196F3;
 --studio-header-color: #212121;
 --studio-footer-color: #ffffff;
+--footer-link-color: rgba(255, 255, 255, 0.6);
+
 
 --highlight-color: #2196F3;
 --btn-color: #2196F3;
@@ -100,7 +102,6 @@ body {
 }
 .footer-address {
     font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 1.71;
     color: var(--footer-text-color);
@@ -114,15 +115,15 @@ body {
 
 .footer-link {
     font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 1.71;
-    color: var(--header-contact-color);
+    color: var(--footer-link-color);
     
 }
 .footer-link:focus, .footer-link:hover {
-background-color: var(--highlight-color);
-color: var(--studio-footer-color);
+    background-color: var(--highlight-color);
+    color: var(--studio-footer-color);
+
 }
 
 .footer-webstudio {
@@ -185,10 +186,10 @@ background-color: var(--background-hero-color);
     font-size: 14px;
     line-height: 1.14;
     color: var(--title-h3-color);
+    text-transform: uppercase;
     
 }
 .features-text {
-    font-weight: normal;
     font-size: 14px;
     line-height: 1.7;
     color: var(--main-text-color);
@@ -230,7 +231,6 @@ background-color: var(--background-hero-color);
 }
 
 .team-text {
-    font-weight: normal;
     font-size: 16px;
     line-height: 1.8;
     color: var(--main-text-color);
@@ -292,7 +292,7 @@ background-color: var(--background-hero-color);
 }
 
 .gallery-text {
-    font-weight: normal;
+    
     font-size: 16px;
     line-height: 1.875;
     color: var(--main-text-color);
